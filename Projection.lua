@@ -13,7 +13,7 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
-local Tab1 = Window:MakeTab({
+local Tab2 = Window:MakeTab({
 	Name = "💫Universal💫",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
@@ -26,12 +26,13 @@ local Tab3  = Window:MakeTab({
 })
 
 
+
 local Section = Tab:AddSection({
 	Name = "Executor"
 })
 
 local Section2 = Tab2:AddSection({
-	Name = "Script All"
+	Name = "Scriptt All"
 })
 
 Tab:AddTextbox({
@@ -40,7 +41,7 @@ Tab:AddTextbox({
 	TextDisappear = true    ,
 	Callback = function(Value)
 		loadstring(Value)()
-    warn("it must suppport Executor only")
+        warn("it must suppport Executor only")
 	end	  
 })   
 
@@ -51,34 +52,35 @@ Tab:AddButton({
   	end    
 })
 
-Tab1:AddButton({
+Tab2:AddButton({
 	Name = "IY",    
 	Callback = function()
       	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
   	end    
 })
 
-Tab1:AddButton({
+Tab2:AddButton({
 	Name = "Fe Fly",    
 	Callback = function()
       	loadstring(game:HttpGet('https://pastebin.com/raw/bHa6HDFc'))()
   	end    
 })
 
-Tab1:AddButton({
+Tab2:AddButton({
 	Name = "Owl Hub",    
 	Callback = function()
       	loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
   	end    
 })
 
-Tab1:AddButton({
+Tab2:AddButton({
 	Name = "Nameless",    
 	Callback = function()
       	loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))();
   	end    
 })
 
+--
 Tab3:AddLabel("Made By Gemcast or Gemblockercast")
 
 Tab3:AddButton({
