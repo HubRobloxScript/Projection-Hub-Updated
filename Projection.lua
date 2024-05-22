@@ -19,12 +19,6 @@ local Tab1 = Window:MakeTab({
 	PremiumOnly = false
 })
 
-local Tab2  = Window:MakeTab({
-	Name = "💫Blox fruit💫",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
 local Tab3  = Window:MakeTab({
 	Name = "💫Credit💫",
 	Icon = "rbxassetid://4483345998",
@@ -82,13 +76,6 @@ Tab1:AddButton({
 	Name = "Nameless",    
 	Callback = function()
       	loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))();
-  	end    
-})
-
-Tab2:AddButton({
-	Name = "redz hub",    
-	Callback = function()
-      	loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
   	end    
 })
 
