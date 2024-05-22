@@ -86,7 +86,7 @@ Tab1:AddButton({
 })
 
 Tab2:AddButton({
-	Name = "Nameless",    
+	Name = "redz hub",    
 	Callback = function()
       	loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
   	end    
